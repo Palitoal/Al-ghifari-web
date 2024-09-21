@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Ghifari's Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Selamat Datang di Halaman Pribadi Al Ghifari</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>Hai, nama saya Al Ghifari. Saya seorang mahasiswa yang tertarik dalam banyak hal, mulai dari teknologi hingga pengembangan diri. Saat ini, saya sedang fokus menyelesaikan kuliah saya sambil mengeksplorasi berbagai topik baru.</p>
+    </section>
+
+    <section>
+        <h2>Hobi & Minat</h2>
+        <p>Saya senang menghabiskan waktu dengan membaca, belajar bahasa baru, dan mencoba hal-hal kreatif. Selain itu, saya juga suka berbagi pengetahuan dan diskusi tentang perkembangan teknologi terkini.</p>
+    </section>
+
+    <section>
+        <h2>Kontak</h2>
+        <p>Jika ingin berhubungan dengan saya, silakan kirim email ke: <a href="mailto:alghifari@example.com">alghifari@example.com</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Al Ghifari</p>
+</footer>
+
+</body>
+</html>
